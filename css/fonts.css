@@ -1,0 +1,17 @@
+@font-face {
+    font-family: GrandHotel;
+    font-weight: normal;
+    src: url(../fonts/GrandHotel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: normal;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
