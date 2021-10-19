@@ -1,14 +1,11 @@
 .proposal
-    background: url(../img/bg/bg2560.png) no-repeat
-    background-position-x: center
-    background-size: cover
+    overflow: hidden
     margin-top: 250px
     padding-top: 150px
-    min-height: 750px
+    height: 750px
+    position: relative
     &_ith
         margin-top: 0
-        background: url(../img/bg/bg2-2.png) no-repeat
-        background-position-y: 100%
     &__wrapper
         .proposal__box
             display: flex
@@ -32,3 +29,13 @@
                     font-family: Montserrat
                     font-size: 25px
                     color: #fff
+                    margin-bottom: 73px
+
+.bg1
+    position: absolute
+    transform: scale(-1.1, 1.2)
+    z-index: -1
+    bottom: -25%
+    &_ith
+        transform: scale(1.1, -1.2) !important
+        bottom: 15%

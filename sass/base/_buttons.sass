@@ -1,4 +1,4 @@
-button
+.button
     width: 245px
     height: 50px
     border: none
@@ -8,3 +8,11 @@ button
     font-weight: bold
     text-align: center
     color: #333
+    transition: all 0.5s
+    &_promo, &_pop
+        &:hover
+            transform: scale(1.1)
+    &_form
+        border-top-left-radius: 0
+        border-bottom-left-radius: 0
+        width: 20%
